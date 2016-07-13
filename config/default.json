@@ -1,0 +1,20 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "sqlite": "../data/BlowFeathers.sqlite",
+  "public": "../public/",
+  "auth": {
+    "idField": "id",
+    "token": {
+      "secret": "9NQOiYNFYmTe/sJGtjE4RxITGmX6KmSlssryyGANAOcbVa417Tcs85tS3NFrhL5a/8jZMWrxUkLGUpQpkSV35w=="
+    },
+    "local": {},
+    "github": {
+      "clientID": "your github client id",
+      "clientSecret": "your github client secret",
+      "permissions": {
+        "scope": []
+      }
+    }
+  }
+}
